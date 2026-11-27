@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "target": "ES2022",
+        "lib": ["ES2022", "DOM", "DOM.Iterable"],
+        "module": "ESNext",
+        "moduleResolution": "Bundler",
+        "jsx": "react-jsx",
+        "strict": true,
+        "skipLibCheck": true,
+        "allowImportingTsExtensions": true,
+        "noEmit": true,
+        "types": [],
+        "paths": {
+            "@host/*": ["../FduNav/src/*"],
+            "react": ["../FduNav/node_modules/@types/react/index.d.ts"],
+            "react/jsx-runtime": ["../FduNav/node_modules/@types/react/jsx-runtime.d.ts"],
+            "react-dom/client": ["../FduNav/node_modules/@types/react-dom/client.d.ts"]
+        }
+    },
+    "include": ["src", "../FduNav/src/renderer/src/window.d.ts", "../FduNav/node_modules/vite/client.d.ts"]
+}
