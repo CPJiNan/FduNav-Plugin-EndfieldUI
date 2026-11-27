@@ -1,0 +1,13 @@
+{
+    "apiVersion": 1,
+    "id": "fdunav.endfield-ui",
+    "name": "Endfield UI",
+    "version": "1.0.0",
+    "description": "终末地风格 FduNav 终端界面。",
+    "permissions": [
+        "accounts", "appInfo", "calendar", "campusCard", "chat", "generalSettings",
+        "library", "llm", "mail", "memory", "messagePreferences", "notices",
+        "notificationSettings", "research", "sources", "timetable", "todos", "weather"
+    ],
+    "views": {"app": "index.html"}
+}

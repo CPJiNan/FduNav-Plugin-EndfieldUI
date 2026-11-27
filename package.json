@@ -1,0 +1,11 @@
+{
+    "name": "fdunav-plugin-endfieldui",
+    "version": "0.1.0",
+    "private": true,
+    "type": "module",
+    "license": "AGPL-3.0-only",
+    "scripts": {
+        "typecheck": "node ../FduNav/node_modules/typescript/bin/tsc --noEmit",
+        "build": "npm run typecheck && node scripts/build.mjs"
+    }
+}
